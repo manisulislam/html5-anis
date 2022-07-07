@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+}
+
+li:hover {
+    background-color: green;
+}
+
+li a {
+    text-decoration: none;
+}
